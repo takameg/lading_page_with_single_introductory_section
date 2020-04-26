@@ -54,6 +54,8 @@ main button {
   border: none;
   border-radius: 30px;
   box-shadow: 0 5px 5px hsl(257, 23%, 30%);
+  color:hsl(257, 40%, 49%);
+  font-size: 16px;
 }
 
 main button:hover {
@@ -61,11 +63,6 @@ main button:hover {
   font-weight: bold;
 }
 
-main button a {
-  text-decoration: none;
-  color:hsl(257, 40%, 49%);
-  font-size: 16px;
-}
 
 .icon {
   margin: 70px auto 50px auto;
