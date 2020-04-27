@@ -1,5 +1,6 @@
 body {
   width: 375px;
+  height:950px;
   background-color: hsl(257, 40%, 49%);
   background-image: url("images/bg-mobile.svg");
   background-size: contain;
@@ -46,19 +47,23 @@ main p {
   font-size: 16px;
 }
 
-main button {
+main a {
+  display: block;
   width: 70%;
-  margin-top: 10px;
+  margin: 10px auto 0 auto;
   padding: 15px;
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border: none;
   border-radius: 30px;
   box-shadow: 0 5px 5px hsl(257, 23%, 30%);
   color:hsl(257, 40%, 49%);
-  font-size: 16px;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
 }
 
-main button:hover {
+main a:hover {
   background-color: hsl(255, 8%, 91%);
   font-weight: bold;
 }
@@ -109,6 +114,7 @@ footer a:hover {
 
   body {
     width: 1440px;
+    height:870px;
     background-image: url("images/bg-desktop.svg");
   }
   
@@ -153,10 +159,12 @@ footer a:hover {
     font-weight: normal;
   }
 
-  main button {
-    width: 38%;
-    padding: 20px;
+  main a {
+    width: 30%;
+    padding: 15px;
     margin-top: 15px;
+    margin-left: 0;
+    font-size: 19px;
   }
 
   .container.icon {
